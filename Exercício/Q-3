@@ -1,0 +1,22 @@
+Var
+// Seção de Declarações das variáveis 
+n: inteiro
+r: caracter
+
+funcao parouimpar (v: inteiro): caracter
+inicio
+se (v % 2 = 0) entao
+   retorne "PAR"
+   SENAO
+   retorne "IMPAR"
+fimse
+fimfuncao
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreva ("Digite um número: ")
+   leia (n)
+   
+   r <- parouimpar(n)
+   Escreva ("O número ",n ,"é um valor: ",r)
+Fimalgoritmo
